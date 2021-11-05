@@ -12,4 +12,13 @@ analyzing this corpus, while not yet entirely clear, reveals some of the challen
 result. With the work described in this paper, we have taken the first step towards better NLP by
 identifying terms which are good candidates for a useful corpus vocabulary.
 
-A.2 Movie Reviews: 
+A.2 Movie Reviews: Clustering, Topic Modeling, and Sentiment Analysis
+
+Various clustering and topic modeling techniques are explored, with varying results. After recognizing a
+distinct trend in the topic models produced across this 200 document corpus, I then turned
+attention to developing a method of differentiating Action and Sci-Fi from other types of movie
+reviews (Comedy and Horror). The final model developed is based upon a relatively simple
+technique known as the Support Vector Machine (SVM), which identifies clear decision
+boundaries in high dimensional spaces (Srinivasan, 2021). This SVM model has been shown to
+achieve 100% Accuracy in identifying Action and Sci-Fi movie from a Test Set of 30 reviews.
+
